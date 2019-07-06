@@ -14,11 +14,13 @@ nav:
   - Series:
     - 'Power Series': 'power-series.md'
     - 'Taylor Theorem': 'taylor.md'
+    - 'Laurent Series': 'laurent.md'
   - Assignments: assignments.md
   - Exam: exam.md
 
 plugins:
   - search
+  - pheasant
   - mknotebooks # pip install mknotebooks
 
 theme:
@@ -36,7 +38,7 @@ theme:
 
   static_templates:
     - 404.html
-    
+
   favicon: 'static/images/favicon.ico'
 
 markdown_extensions:
@@ -66,9 +68,10 @@ markdown_extensions:
   - toc:
       permalink: true
 
-  - meta      
+  - meta
 
 extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
   - 'https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'static/js/app-local.js'
 
