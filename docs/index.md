@@ -8,7 +8,7 @@ This page is dedicated to the course of complex analysis taught at the universit
 - Cauchy Integral Formula and Related Theorems
 - Power and Laurents Series
 - Singularities
-- Rouches theorem
+- Rouches theorex
 
 ## Objectives
 
@@ -17,9 +17,10 @@ The course ==Complex Analysis== focussed on the study of properties of complex f
 - [x] Understand contour integration
 - [x] Apply Cauchy integral formula
 - [x] Important results based on CIF
-- [ ] Ability to represent complex function as Power and Laurents series
-- [ ] Understand different type of singularity
-- [ ] Rouches theorem and application
+- [x] Ability to represent complex function as Power and Laurents series
+- [x] Understand different type of singularity
+- [x] Rouches theorem and application
+- [x] Application in solving improper integrals
 
 ## References
 
