@@ -20,8 +20,8 @@ nav:
 
 plugins:
   - search
-  - pheasant
   - mknotebooks # pip install mknotebooks
+  # - pheasant
 
 theme:
   name: material

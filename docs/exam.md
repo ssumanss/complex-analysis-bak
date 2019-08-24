@@ -3,12 +3,34 @@
 The course has two exams one is internal of 15 marks, while the other is final worth 70 marks. Rest marks are part of continuous assessment that belongs to attendance, seminar and assignments. Practice the following question for exams
 
 * Unit 1
-    * Calculating contour integral using parametrization of curve.
-    * Use path independence when antiderivative exists.
-    * Use Cauchy theorem when function is analytic
+    * Types of Path/Contour/Arc (Definition + Examplex)
+    * Calculating Contour Integral using Parametrization (Statement + Proof + Problems)
+    * Simply Connected and Multiply connected domains (Defintion + Examples)
+    * Use path independence when antiderivative exists (Threome + Proof + Problems)
+    * Cauchy Theorem (Statement + Proof + Problems)
+    * Morera's Theorem (Statement + Proof)
 * Unit 2
-    * Use Cauchy integral formula to find integration along closed contour.
-    * Use Cauchy integral formula to find integration along closed contour.
+    * Deformation Theorem (Statement)
+    * Cauchy integral formula (Statement + Proof + Problems)
+    * Gauss Mean Value Theorem (Statement + Proof)
+    * Maximum Modulus Theorem (Statement + Proof + Problems)
+    * Minimum Modulus Theorem (Statement + Proof)
+    * Liovellie's Theorem (Statement + Proof)
+    * Schwartz Lemma (Statement + Proof)
+    * Cauchy's Inequality (Statement + Proof + Problems)
+* Unit 3
+    * Power Series (Definition + Examples)
+    * Radius of Convergence (Problems)
+    * Taylor's Theorem (Statement + Proof + Problems)
+    * Laurent's Theorem (Statement + Proof + Problems)
+* Unit 4
+    * Singularities(Defintion + Problems)
+    * Analytic continuation(Definition Only)
+* Unit 5
+    * Zeros and Poles of complex meromorphic function(Definition + Problems)
+    * Argument Principle/Theorem (Statement + Proof + Problems)
+    * Rouche's Theorem (Statement + Proof + Problems)
+    * Integration of type $\displaystyle \int_{-\infty}^{\infty} f(x)\, dx$
 
 
 ## Internal Exam

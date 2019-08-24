@@ -1,14 +1,14 @@
 # Welcome to complex analysis course
 
-This page is dedicated to the course of complex analysis taught at the university department of mathematics, Tilka Manjhi Bhagalpur University, Bhagalpur.
+This page is dedicated to the course of the complex analysis taught in the university department of mathematics, Tilka Manjhi Bhagalpur University, Bhagalpur.
 
-## Syllabus
+<!-- ## Syllabus
 
 - Contour Integration
 - Cauchy Integral Formula and Related Theorems
 - Power and Laurents Series
 - Singularities
-- Rouches theorex
+- Rouches theorex -->
 
 ## Objectives
 
