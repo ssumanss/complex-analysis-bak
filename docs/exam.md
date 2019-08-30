@@ -36,6 +36,11 @@ The course has two exams one is internal of 15 marks, while the other is final w
 
 Internal exam consist of 5 objectives and 3 descriptive questions, out of which you have to answer all objectives and 2 descriptive questions.
 
+### Session 2017-19
+
+Quesion of Internal Exams: [Download Here](PDFs/171906CIA.pdf)
+
+
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQt1HAoZPQamfnzNHe5tkZGaoB07uMlS6vkMHrR2Syqlzv3JlV_WPYasgX2xXp45FFDG0APgNZTt3o9/pubchart?oid=1786958430&amp;format=interactive"></iframe>
 
 ## Final Exam
