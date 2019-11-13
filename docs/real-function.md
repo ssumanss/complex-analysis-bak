@@ -1,4 +1,5 @@
 # Complex valued function of real variable
+
 Let $f:I \subseteq \mathbb{R} \to \mathbb{C}$, such that, $f\in \mathcal{C}^1$, then
 $$f(x)=g(x) + ih(x)\quad
 x\in\mathbb{R}$$
@@ -7,8 +8,12 @@ x\in\mathbb{R}$$
 
 **Ex:** $f(t)= (t+1) +(3t-1)i$
 **Ex:** $f(t)=t^2 + t^3 i$
-### Differentiation ###
+
+## Differentiation
+
+Differentiation of such function is done term by term as follows
 $$f'(t)=g'(t) + ih'(t) $$
+
 **Ex**
 $$
 \begin{align}
@@ -20,9 +25,10 @@ f'(t) &=  ie^{it}   &=& -\sin t + i \cos t             \\
 $$
 We can see that, both ways we got the same anser.
 
-### Integration
+## Integration
 
-$$ \int f(t) = \int g(t) dt + \int h(t) dt $$
+Integration of such function is done term by term as follows,
+$$ \int f(t) = \int g(t) dt + i \int h(t) dt $$
 
 **Ex:**
 $$
@@ -33,7 +39,10 @@ f(t) &= t^2 + it^3 \\
 \end{align}
 $$
 
-### Legth
+## Legth
+
+The length of the curve is conputed as the following formula
+
 $$
 \begin{align}
 (ds)^2 &= (dx)^2 + (dy)^2\\
