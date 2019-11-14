@@ -1,14 +1,14 @@
 # Cauchy Theorem
 
-### Simply connectd domain
+## Simply connectd domain
 
 **Def:** A domain $D\subseteq \mathbb{ C }$ is simply connected if $D$ has no holes $ \Leftrightarrow C \setminus D$ is connected.
 
 A domain that is not simply connected  is called  multiply connected.
 
-### Cauchy Theorem
-**Theorem:**  Let $D \subseteq C$ be  simply connected domain and $f:D\to  \mathbb{ C } $  is any analytic  function .Then for any closed  contour $\gamma$ in $D$ , We have
-$$\int_\gamma f(z) dz=0$$
+!!! success "Cauchy Theorem"
+      Let $D \subseteq C$ be  simply connected domain and $f:D\to  \mathbb{ C } $  is any analytic  function .Then for any closed  contour $\gamma$ in $D$ , We have
+      $$\int_\gamma f(z) dz=0$$
 
 **Proof:** Let  $f(z)= u(x,y) + iv(x,y)$ and the contour
 $$
