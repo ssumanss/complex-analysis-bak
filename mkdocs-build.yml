@@ -37,16 +37,16 @@ plugins:
 theme:
   palette:
     - scheme: default
-      primary: green
-      accent: yellow
+      primary: deep-purple
+      accent: deep-orange
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/eye-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: yellow
-      accent: green
+      primary: deep-purple
+      accent: deep-orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/eye
         name: Switch to light mode
 
   name: material
@@ -61,7 +61,7 @@ theme:
 
 
   font:
-    text: 'Ubuntu'
+    text: 'Oxygen'
     code: 'Ubuntu Mono'
 
   static_templates:
