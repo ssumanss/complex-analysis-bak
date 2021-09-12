@@ -1,8 +1,8 @@
-.codehilite {
+.highlight {
     display: none
 }
 
-img {
+img, video {
     display: block;
     margin: 0 auto;
     margin-left: auto;

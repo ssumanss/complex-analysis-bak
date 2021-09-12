@@ -3,13 +3,13 @@ site_url: https://sandeepsuman.com/complex-analysis/
 nav:
   - Home: index.md
   - Fundamentals:
-    - 'Definition and Algebra': 'Introduction.ipynb'
-    - 'Argand Plane': 'Plotting.ipynb'
-    - 'Complex Functions': 'Function.ipynb'
+    - 'Definition and Algebra': 'introduction.md'
+    - 'Argand Plane': 'plotting.md'
+    - 'Complex Functions': 'function.md'
   - Integration:
     - 'Real Functions' : 'real-function.md'
     - 'Contour': 'paths.md'
-    - 'Contour Integration': 'Integration.ipynb'
+    - 'Contour Integration': 'integration.md'
     - 'Cauchy Theorem': 'cauchy-theorem.md'
     - 'Cauchy Integral Formula': 'cauchy-integral-formula.md'
     - 'Results Based on CIF': 'results-on-cauchy-integral-formula.md'
@@ -20,20 +20,45 @@ nav:
     - 'Laurent Series': 'laurent.md'
   - Assignments: assignments.md
   - Exam: exam.md
+  - Video: video.md
 
 plugins:
   - search
-  - mknotebooks # pip install mknotebooks
-  # - pheasant
+  - minify:
+      minify_html: true
+
+  - add-number:
+      strict_mode: False
+      order: 2
+      excludes:
+        - index.md
+
 
 theme:
+  palette:
+    - scheme: default
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: yellow
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
   name: material
   custom_dir: 'theme'
+  features:
+    - navigation.tabs
+    - navigation.top
 
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
 
-  palette:
-    primary: 'teal'
-    accent: 'teal'
 
   font:
     text: 'Ubuntu'
@@ -41,42 +66,44 @@ theme:
 
   static_templates:
     - 404.html
-
+    
   favicon: 'static/images/favicon.ico'
 
 markdown_extensions:
   - admonition
-  # - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.tabbed
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-  - mdx_math: # pip install python-markdown-math
-      enable_dollar_delimiter: true
 
   - codehilite:
       guess_lang: false
   - toc:
       permalink: true
 
-  - meta
+  - meta      
+
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
-  - 'https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
-  - 'static/js/app-local.js'
+  - https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - static/js/app-local.js
 
 extra_css:
   - 'static/stylesheets/extra.css' # depends on theme
